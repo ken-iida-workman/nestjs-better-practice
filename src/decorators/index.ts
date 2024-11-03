@@ -1,0 +1,1 @@
+export { IsAlphanumeric } from './IsAlphanumeric';

@@ -1,4 +1,5 @@
-import { IsAlphanumeric, IsNumber, IsOptional } from 'class-validator';
+import { IsNumber, IsOptional } from 'class-validator';
+import { IsAlphanumeric } from 'src/decorators';
 
 export class CreateUserDto {
   @IsAlphanumeric()
